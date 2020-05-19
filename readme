@@ -1,0 +1,13 @@
+yarn add react-navigation react-native-gesture-handler
+yarn add jetifier -D ---> yarn run jetify
+yarn add react-native-linear-gradient
+react-native link react-native-linear-gradient
+yarn add styled-components
+yarn add prop-types
+yarn add react-native-vector-icons
+react-native link react-native-vector-icons
+yarn add reactotron-react-native reactotron-redux reactotron-redux-saga
+yarn add redux redux-saga react-redux
+yarn add redux-persist immer
+yarn add axios
+yarn add @react-native-community/async-storage
