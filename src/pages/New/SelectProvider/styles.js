@@ -32,6 +32,6 @@ export const Name = styled.Text`
   margin-top: 15px;
   font-size: 15px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   text-align: center;
 `;

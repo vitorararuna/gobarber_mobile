@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { RectButton } from 'react-native-gesture-handler';
+import { RectButton } from 'react-native-gesture-handler'; // Não permite o clique caso o enabled estiver false
 
 export const Container = styled.SafeAreaView`
   flex: 1;

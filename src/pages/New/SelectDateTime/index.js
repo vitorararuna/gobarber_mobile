@@ -11,13 +11,13 @@ export default function SelectDateTime({ route, navigation }) {
   const [date, setDate] = useState(new Date());
   const [hours, setHours] = useState([]);
 
-  const { provider } = route.params;
+  const { provider } = route.params; //Buscando o nosso paramtro provider de dentro de params
 
   useEffect(() => {
     async function loadAvailableTimes() {
       const response = await api.get(`providers/${provider.id}/available`, {
         params: {
-          date: date.getTime(),
+          date: date.getTime(), // essa  rota precisa enviar um date por params
         },
       });
 
@@ -39,7 +39,7 @@ export default function SelectDateTime({ route, navigation }) {
       <Container>
         <DateInput date={date} onChange={setDate} />
 
-        <HourList
+        <HourList //Listar todos os horarios e se eles estão disponíveis ou não
           data={hours}
           keyExtractor={(item) => item.time}
           renderItem={({ item }) => (

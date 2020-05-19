@@ -27,7 +27,7 @@ export const ProfileOptions = {
 
 export const NewOptions = {
   tabBarLabel: 'Agendar',
-  // tabBarVisible: false,
+  tabBarVisible: false,
   tabBarIcon: ({ color, size }) => (
     <Icon name="add-circle-outline" size={size} color={color} />
   ),
