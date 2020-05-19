@@ -2,11 +2,11 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export const TabBarOptions = {
-  keyboardHidesTabBar: true,
+  keyboardHidesTabBar: true, //TabBar não vai para cima do teclado
   activeTintColor: '#fff',
   inactiveTintColor: 'rgba(255, 255, 255, 0.4)',
   style: {
-    backgroundColor: '#101010',
+    backgroundColor: '#8d41a8',
     borderTopWidth: 0,
   },
 };
